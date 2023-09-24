@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 const Carousul_card = ({image,name}) => {
   return (
     <motion.div 
-    whileHover={{ scale: 0.5,backgroundColor: '#e3f2f7',}}
     className="card p-3 flex items-center flex-col gap-3 ">
       <div className="image-box w-[15rem] h-[15rem]  rounded-xl object-cover overflow-hidden">
         <img src={image}></img>

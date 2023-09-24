@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
-import Link from "next/link";
+
 import Image from "next/image";
 import { motion } from "framer-motion";
 
@@ -17,9 +17,9 @@ return (
     <motion.div
       className="w-full flex items-center  md:flex py-4 px-[10vw] bg-[#131110] text-white  justify-between"
     >
-      <Link href={"logo"}>
-        <Image src="/real-estate-logo.png" width={100} height={100} />
-      </Link>
+      
+        <Image src="./real-estate-logo.png" width={100} height={100} />
+      
 
       <div className="hidden  lg:flex gap-[40px] items-center">
         <a href="#redidenci">Residencies</a>
