@@ -2,6 +2,7 @@ import React from "react";
 import { FaLocationDot } from "react-icons/fa6";
 import CountUp from "react-countup";
 import { motion } from "framer-motion";
+import Image from "next/image";
 const Hero = () => {
   return (
     <div className="w-full bg-[#131110] text-white flex lg:flex-row flex-col-reverse justify-between items-center px-[20px] py-[20px] xl:px-[15vw] xl:py-[3rem] ">
@@ -87,7 +88,8 @@ const Hero = () => {
       animate={{x:0}}
       transition={{duration:1.5}}
       className="right h-[15rem] w-[13rem]   lg:h-[35rem] lg:w-[30rem] bg-slate-400 rounded-t-full overflow-hidden border-[5px] border-[#565555] ">
-        <img
+        <Image
+        alt="image"
           src="https://images.unsplash.com/photo-1516156008625-3a9d6067fab5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
           width={300}
           height={200}

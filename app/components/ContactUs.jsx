@@ -3,6 +3,7 @@ import {IoIosCall} from "react-icons/io"
 import {BsChatDotsFill} from "react-icons/bs"
 import {BsPersonVideo} from "react-icons/bs"
 import {BiSolidMessageSquareDetail} from "react-icons/bi"
+import Image from 'next/image'
 const ContactUs = () => {
   return (
     <div id="ContactUS" className=' flex  flex-col-reverse gap-5 items-center lg:flex-row justify-between px-[20px] py-[20px] xl:px-[10vw] xl:py-[3rem]'>
@@ -66,7 +67,8 @@ const ContactUs = () => {
         </div>
       </div>
       <div className="right h-[15rem] w-[13rem]   lg:h-[35rem] lg:w-[30rem] bg-slate-400 rounded-t-full overflow-hidden border-[5px] border-[#565555] ">
-          <img
+          <Image
+          alt='image'
           src='https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'
             width={300}
             height={200}

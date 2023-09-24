@@ -3,12 +3,14 @@ import { BsShieldFillCheck } from "react-icons/bs";
 import { IoMdArrowDropdown } from "react-icons/io";
 import {ImCross} from "react-icons/im"
 import {BsFileBarGraphFill} from "react-icons/bs"
+import Image from "next/image";
 const Value = () => {
   return (
     <div id="OurValue" className="flex flex-col items-center gap-5 md:justify-between lg:flex-row px-[20px] py-[20px] xl:px-[10vw] xl:py-[3rem] ">
       <div className="left">
         <div className="right h-[15rem] w-[13rem]   lg:h-[35rem] lg:w-[30rem] bg-slate-400 rounded-t-full overflow-hidden border-[5px] border-[#565555] ">
-          <img
+          <Image
+          alt="image"
             src="https://images.unsplash.com/photo-1613977257363-707ba9348227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
             width={300}
             height={200}

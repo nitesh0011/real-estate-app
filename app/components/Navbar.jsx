@@ -18,7 +18,7 @@ return (
       className="w-full flex items-center  md:flex py-4 px-[10vw] bg-[#131110] text-white  justify-between"
     >
       
-        <Image src="./real-estate-logo.png" width={100} height={100} />
+        <Image src="./real-estate-logo.png" alt="logo" width={100} height={100} />
       
 
       <div className="hidden  lg:flex gap-[40px] items-center">

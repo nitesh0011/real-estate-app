@@ -1,11 +1,12 @@
 import React from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 const Carousul_card = ({image,name}) => {
   return (
     <motion.div 
     className="card p-3 flex items-center flex-col gap-3 ">
       <div className="image-box w-[15rem] h-[15rem]  rounded-xl object-cover overflow-hidden">
-        <img src={image}></img>
+        <Image src={image} alt="image_card"/>
       </div>
       <span className="flex font-poppins font-bold">
         <span className="text-orange-400">$</span>
