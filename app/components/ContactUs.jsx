@@ -15,7 +15,7 @@ const ContactUs = () => {
           <h1 className="text-[32px] text-[#1f3e72] font-bold font-poppins">
           Easy to contact us
           </h1>
-          <span className=" w-full lg:w-[35rem] text-gray-500">
+          <span className=" w-full lg:w-[35rem] text-gray-400 font-sans">
           We always ready to help by providijng the best services for you. We beleive a good blace to live can make your life better
           </span>
         </div>
@@ -70,7 +70,7 @@ const ContactUs = () => {
           <Image
           alt='image'
           src='https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'
-            width={300}
+            width={500}
             height={200}
             className="h-full w-full object-cover "
           />

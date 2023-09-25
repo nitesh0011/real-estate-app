@@ -6,7 +6,7 @@ const Carousul_card = ({image,name}) => {
     <motion.div 
     className="card p-3 flex items-center flex-col gap-3 ">
       <div className="image-box w-[15rem] h-[15rem]  rounded-xl object-cover overflow-hidden">
-        <Image src={image} alt="image_card"/>
+        <Image src={image} alt="image_card" width={500} height={200}/>
       </div>
       <span className="flex font-poppins font-bold">
         <span className="text-orange-400">$</span>
